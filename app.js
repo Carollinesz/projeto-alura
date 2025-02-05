@@ -7,7 +7,7 @@ function adicionarAmigo() {
     } else {
         amigos.push(document.getElementById("amigo").value)
         document.getElementById("listaAmigos").innerHTML += `<li>${amigos.at(-1)}</l1>`
-        
+        document.getElementById("error").innerHTML = ""
     }
 }
 
